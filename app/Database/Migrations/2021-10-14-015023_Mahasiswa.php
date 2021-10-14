@@ -19,6 +19,10 @@ class Mahasiswa extends Migration
         'type'       => 'VARCHAR',
         'constraint' => '9',
       ],
+      'nama'       => [
+        'type'       => 'VARCHAR',
+        'constraint' => '35',
+      ],
       'jenis_kelamin' => [
         'type' => 'VARCHAR',
         'constraint' => '15',
